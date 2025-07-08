@@ -23,7 +23,7 @@ function love.mousepressed(x, y, button, istouch)
          print("in bounds")
         math.randomseed(os.time())
         math.random(); math.random(); math.random()
-         startY = math.random (whale:getHeight(), whale:getHeight() * 2) * 1
+         startY = math.random (whale:getHeight(), whale:getHeight() * 0) * -1
         end
     end
 end
