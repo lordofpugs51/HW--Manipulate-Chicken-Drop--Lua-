@@ -12,6 +12,9 @@ end
 
 
 function love.draw()
+    for i, value in ipairs(startX) do
+        love.graphics.draw(whale , startX[i], startY[i])
+    end
     love.graphics.draw(whale, startX, startY)
 end
 
