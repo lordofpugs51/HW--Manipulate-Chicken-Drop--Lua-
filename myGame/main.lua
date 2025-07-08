@@ -18,8 +18,8 @@ end
 function love.mousepressed(x, y, button, istouch)
     if button == 1 then
         print("leftMouseClicked")
-        if x >= startX and x <= startX + roosterFace:getWidth()
-        and y >= startY and y <= startY + roosterFace:getHeight() then
+        if x >= startX and x <= startX + whale:getWidth()
+        and y >= startY and y <= startY + whale:getHeight() then
          print("in bounds")
         math.randomseed(os.time())
         math.random(); math.random(); math.random()
