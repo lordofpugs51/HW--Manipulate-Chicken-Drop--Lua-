@@ -24,8 +24,8 @@ function love.mousepressed(x, y, button, istouch)
          startY = 0 - whale:getHeight()
         math.randomseed(os.time())
         math.random(); math.random(); math.random()
-         startY = math.random (whale:getHeight(), whale:getHeight() * 0) * -1
-         startX = math.random (whale:getWidth(), whale:getWidth() * 0) * -1
+         startY = math.random (whale:getHeight(), whale:getHeight() * 0) * 1
+         startX = math.random (whale:getWidth(), whale:getWidth() * 0) * 1
         end
     end
 end
