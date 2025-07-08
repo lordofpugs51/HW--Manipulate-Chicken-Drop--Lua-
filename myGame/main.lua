@@ -17,7 +17,7 @@ end
 
 function love.mousepressed(x, y, button, istouch)
     if button == 1 then
-        print("leftMouseClicked")
+        --print("leftMouseClicked")
         if x >= startX and x <= startX + whale:getWidth()
         and y >= startY and y <= startY + whale:getHeight() then
          print("in bounds")
