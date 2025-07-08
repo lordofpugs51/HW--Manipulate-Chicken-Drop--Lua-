@@ -12,9 +12,6 @@ end
 
 
 function love.draw()
-    for i, value in ipairs(startX) do
-        love.graphics.draw(whale , startX[i], startY[i])
-    end
     love.graphics.draw(whale, startX, startY)
 end
 
@@ -32,7 +29,7 @@ function love.mousepressed(x, y, button, istouch)
                 math.random(0,love.graphics.getWidth()-whale:getWidth()),}
         startY = {0,
                   0}    
-                  
+                     
          startY = math.random (whale:getHeight(), whale:getHeight() * 0) * -1
          startX = math.random (whale:getWidth(), whale:getWidth() * 0) * 1
         end
